@@ -19,6 +19,8 @@ public:
     Matrix  operator*(const Matrix& matrix2);
     double& operator()(const int i, const int j) const;
 
+    double norma();
+
     void print();
 
 private:

@@ -16,7 +16,8 @@ AccelPointMass: Computes the perturbational acceleration due to a point mass
 
  */
 
-double AccelPointMass(const std::vector<double>&  r, const std::vector<double>&  s, double GM)){
-    std::vector<double> d = r - s;
-    return -GM * (d/(norm(d)^3) + s/(norm(s)^3) );
+double AccelPointMass(Matrix  r, Matrix  s, double GM)){
+    Matrix d = Matrix::operator-(r,s);
+    return -GM * (d/(d.norma()^3) + s/(s.norma()^3));
+    // -GM * (d/(norm(d)^3) + s/(norm(s)^3))
 }

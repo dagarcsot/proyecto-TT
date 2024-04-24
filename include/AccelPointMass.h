@@ -5,8 +5,8 @@
 #ifndef PROYECTO_ACCELPOINTMASS_H
 #define PROYECTO_ACCELPOINTMASS_H
 
-#include <vector>
+#include "Matrix.h"
 
-double AccelPointMass(const std::vector<double>&  r, const std::vector<double>&  s, double GM);
+double AccelPointMass(Matrix  r, Matrix  s, double GM);
 
 #endif //PROYECTO_ACCELPOINTMASS_H

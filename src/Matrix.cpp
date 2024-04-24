@@ -99,6 +99,17 @@ double& Matrix::operator()(const int i, const int j) const
     return matrix[i-1][j-1];
 }
 
+double Matrix::norma(){
+    double n = 0;
+    if(fil ==1){
+        for (int i = 0; i < fil; i++){
+                n = n + matrix[1][i] *  matrix[1][i];
+        }
+        return n;
+    }
+
+}
+
 void Matrix::print()
 {
     for (int i = 0; i < fil; i++){
