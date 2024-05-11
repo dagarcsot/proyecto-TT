@@ -5,21 +5,7 @@
 
 #include "Matrix.h"
 
-class AzElPa {
-
-private:
-    double azimuth;
-    double El;
-    Matrix *dAds;
-    Matrix *dEds;
-public:
-    AzElPa(Matrix s);
-    double getAzimuth();
-    double getElevation();
-    Matrix *getPartialsAzimuth();
-    Matrix *getPartialsElevation();
-
-};
+void AzElPa(Matrix &s, double &Az,double &El, Matrix &dAds, Matrix &dEds);
 
 
 #endif //PROYECTO_AZELPA_H

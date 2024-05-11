@@ -7,6 +7,6 @@
 
 #include "Matrix.h"
 
-double AccelPointMass(Matrix  r, Matrix  s, double GM);
+Matrix AccelPointMass(Matrix  &r, Matrix  &s, double GM);
 
 #endif //PROYECTO_ACCELPOINTMASS_H

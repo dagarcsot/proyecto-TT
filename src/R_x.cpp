@@ -1,17 +1,15 @@
-//
-// Created by dagarcsot on 19/04/2024.
-//
+
 #include <math.h>
 #include "../include/Matrix.h"
 #include "../include/R_x.h"
 
 /*
-      input:
-        angle       - angle of rotation [rad]
-
-      output:
-        rotmat      - vector result
-*/
+ * input:
+ *      angle       - angle of rotation [rad]
+ *
+ * output:
+ *      rotmat      - vector result
+ */
 
 Matrix R_x(double angle)
 {

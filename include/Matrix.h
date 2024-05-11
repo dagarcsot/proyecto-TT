@@ -18,7 +18,9 @@ public:
     Matrix  operator-(const Matrix& matrix2);
     Matrix  operator*(const Matrix& matrix2);
     double& operator()(const int i, const int j) const;
+    Matrix operator*(double producto);
 
+    double dot(const Matrix &matrix2);
     double norma();
 
     void print();

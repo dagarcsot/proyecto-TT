@@ -1,23 +1,32 @@
-//
-// Created by dagarcsot on 24/04/2024.
-//
 
 #include "../include/unit.h"
 
-Matrix unit(Matrix m1) {
+/*
+ *  this function calculates a unit vector given the original vector. if a
+ *  zero vector is input, the vector is set to zero.
+ *
+ *   input:
+ *          m1         - vector (use of matrix instead)
+ *
+ *   output:
+ *          m2         - unit vector
+ *
+ */
+
+Matrix unit(Matrix &vec) {
     double small = 0.000001;
-    double magv = m1.norma();
-    Matrix *m2 = new Matrix(1, 3);
+    double magv = vec.norma();
+    Matrix outvec(1, 3);
 
     if (magv > small) {
-        for (int i = 0; i < 3; i++) {
-            (*m2)(0, i) = m1(0, i) / magv;
+        for (int i = 1; i <= 3; i++) {
+            outvec(1, i) = vec(1, i) / magv;
         }
     } else {
-        for (int i = 0; i < 3; i++) {
-            (*m2)(0, i) = 0.0;
+        for (int i = 1; i <= 3; i++) {
+            outvec(1, i) = 0.0;
         }
     }
-    return *m2;
-
+    return outvec;
 }
+

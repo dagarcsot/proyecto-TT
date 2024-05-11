@@ -5,7 +5,7 @@
 #include <cstdio>
 #include "../include/Global.h"
 
-
+/*
 void Global::eop19620101(int c){
     Global::eopdata = new Matrix(13,c);
     FILE *fp = fopen("./data/eop19620101.txt","r");
@@ -15,4 +15,6 @@ void Global::eop19620101(int c){
     for(int i =1; 1<=c;i++){
 
     }
-}
+
+
+}*/

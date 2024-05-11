@@ -1,6 +1,9 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.21.1)
 project(proyecto)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(proyecto main.cpp EKF.cpp EKF_test.cpp include/Matrix.h include/R_z.h src/Matrix.cpp src/R_z.cpp src/R_x.cpp src/R_y.cpp include/R_x.h include/R_y.h src/AccelPointMass.cpp include/AccelPointMass.h src/Frac.cpp include/Frac.h src/Global.cpp include/Global.h src/sign.cpp include/sign.h src/unit.cpp include/unit.h src/AzElPa.cpp include/AzElPa.h)
+add_executable(proyecto EKF.cpp EKF_test.cpp include/Matrix.h include/R_z.h src/Matrix.cpp src/R_z.cpp src/R_x.cpp src/R_y.cpp include/R_x.h include/R_y.h src/AccelPointMass.cpp include/AccelPointMass.h src/Frac.cpp include/Frac.h src/Global.cpp include/Global.h src/sign.cpp include/sign.h src/unit.cpp include/unit.h src/AzElPa.cpp include/AzElPa.h src/IERS.cpp include/IERS.h src/PoleMatrix.cpp include/PoleMatrix.h src/NutMatrix.cpp include/NutMatrix.h src/Mjday.cpp include/Mjday.h include/globales.h src/NutAngles.cpp include/NutAngles.h src/MeanObliquity.cpp include/MeanObliquity.h include/SAT_Const.h src/timediff.cpp include/timediff.h src/Position.cpp include/Position.h src/Cheb3D.cpp include/Cheb3D.h)
+
+
+add_executable(prueba main.cpp include/Matrix.h include/R_z.h src/Matrix.cpp src/R_z.cpp src/R_x.cpp src/R_y.cpp include/R_x.h include/R_y.h src/AccelPointMass.cpp include/AccelPointMass.h src/Frac.cpp include/Frac.h src/Global.cpp include/Global.h src/sign.cpp include/sign.h src/unit.cpp include/unit.h src/AzElPa.cpp include/AzElPa.h src/IERS.cpp include/IERS.h src/PoleMatrix.cpp include/PoleMatrix.h src/NutMatrix.cpp include/NutMatrix.h src/Mjday.cpp include/Mjday.h include/globales.h src/NutAngles.cpp include/NutAngles.h src/MeanObliquity.cpp include/MeanObliquity.h include/SAT_Const.h src/timediff.cpp include/timediff.h src/Position.cpp include/Position.h src/Cheb3D.cpp include/Cheb3D.h)

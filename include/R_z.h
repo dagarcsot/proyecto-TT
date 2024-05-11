@@ -5,7 +5,7 @@
 #ifndef PROJECTO_R_Z_H
 #define PROJECTO_R_Z_H
 
-#include "Matrix.h";
+#include "Matrix.h"
 
 Matrix R_z(double angle);
 
