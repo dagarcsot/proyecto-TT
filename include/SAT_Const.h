@@ -12,6 +12,7 @@ const double pi2 = 2 * pi;                // 2pi
 const double Rad = pi / 180;              // Radians per degree
 const double Deg = 180 / pi;              // Degrees per radian
 const double Arcs = 3600 * 180 / pi;        // Arcseconds per radian
+const double eps =  2.220446049250313e-16;  //Floating-point relative accuracy
 
 // General
 const double MJD_J2000 = 51544.5;             // Modified Julian Date of J2000

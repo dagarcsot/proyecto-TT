@@ -130,3 +130,45 @@ void Matrix::print() {
     }
     std::cout << std::endl;
 }
+
+
+int Matrix::getNumCol() {
+    return this->col;
+}
+
+int Matrix::getNumFil() {
+    return this->fil;
+
+}
+
+Matrix Matrix::getFil(int fil) {
+    Matrix result(1, this->col);
+
+    for (int i = 0; i < this->col; i++) {
+        result.matrix[0][i] = matrix[fil - 1][i];
+
+    }
+    return result;
+
+}
+
+Matrix Matrix::getCol(int col) {
+    Matrix result(1, this->fil);
+
+    for (int i = 0; i < this->fil; i++) {
+        result.matrix[0][i] = matrix[i][col -1];
+
+    }
+    return result;
+
+}
+
+Matrix Matrix::transpuesta() {
+    Matrix result(col, fil);
+    for (int i = 0; i < fil; ++i) {
+        for (int j = 0; j < col; ++j) {
+            result(j + 1, i + 1) = matrix[i][j];
+        }
+    }
+    return result;
+}

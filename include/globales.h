@@ -1,8 +1,25 @@
-//
-// Created by danie on 07/05/2024.
-//
 
 #ifndef PROYECTO_GLOBALES_H
 #define PROYECTO_GLOBALES_H
-double Cnm[362][362];
+
+#include "Matrix.h"
+
+#include "Matrix.h"
+
+struct AuxParam {
+    double Mjd_TT;
+    double Mjd_UTC;
+    int n;
+    int m;
+    bool sun;
+    bool moon;
+    bool  planets;
+};
+
+extern Matrix Cnm;
+extern Matrix Snm;
+extern Matrix eopdata;
+extern AuxParam auxParam;
+
+
 #endif //PROYECTO_GLOBALES_H

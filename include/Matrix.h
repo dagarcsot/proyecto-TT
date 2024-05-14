@@ -1,6 +1,3 @@
-//
-// Created by dagarcsot on 12/04/2024.
-//
 
 #ifndef PROJECTO_MATRIX_H
 #define PROJECTO_MATRIX_H
@@ -20,8 +17,17 @@ public:
     double& operator()(const int i, const int j) const;
     Matrix operator*(double producto);
 
+    Matrix transpuesta();
+
     double dot(const Matrix &matrix2);
     double norma();
+
+    int getNumCol();
+    int getNumFil();
+
+    Matrix getFil(int fil);
+    Matrix getCol(int col);
+
 
     void print();
 
