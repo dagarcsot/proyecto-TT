@@ -10,6 +10,7 @@ public:
     Matrix(const Matrix& m);
     ~Matrix();
 
+
     Matrix& operator=(const Matrix& matrix2);
     Matrix  operator+(const Matrix& matrix2);
     Matrix  operator-(const Matrix& matrix2);
@@ -30,6 +31,7 @@ public:
 
 
     void print();
+    bool equals(const Matrix &matrix2, int e);
 
 private:
     void initMatrix();

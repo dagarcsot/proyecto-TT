@@ -20,29 +20,22 @@ using namespace std;
 #include "include/IERS.h"
 #include "include/Legendre.h"
 #include "include/R_x.h"
+#include "include/TimeUpdate.h"
+#include "include/PrecMatrix.h"
 
 
 int main() {
-    // Definir los parámetros de la aproximación de Chebyshev
-    double t = 0.5; // Valor de tiempo
-    double N = 3; // Número de coeficientes
-    double Ta = 0.0; // Inicio del intervalo
-    double Tb = 1.0; // Fin del intervalo
-    double Cxd[] = {1.0, 2.0, 3.0, 4.0}; // Coeficientes para la coordenada x
-    double Cyd[] = {5.0, 6.0, 7.0, 8.0}; // Coeficientes para la coordenada y
-    double Czd[] = {9.0, 10.0, 11.0, 12.0}; // Coeficientes para la coordenada z
-
-    Matrix Cx(1,4,Cxd,4);
-    Matrix Cy(1,4,Cyd,4);
-    Matrix Cz(1,4,Czd,4);
+    // Ejemplo de uso de la función TimeUpdate
+   double P = 53005.0;
+   double Phi = 53015.0;
 
 
-    // Calcular la aproximación de Chebyshev
-    Matrix result = Cheb3D(t, N, Ta, Tb, Cx, Cy, Cz);
 
-    // Imprimir el resultado
-    std::cout << "Aproximación de Chebyshev en t = " << t << ": "<<endl;
-    result.print();
+    // Llamar a la función TimeUpdate
+    Matrix updated_P = PrecMatrix(P, Phi);
+
+    // Mostrar la matriz P actualizada
+    updated_P.print();
 
     return 0;
 

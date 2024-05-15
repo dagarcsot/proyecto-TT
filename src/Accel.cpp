@@ -26,7 +26,7 @@
  */
 
 Matrix Accel(double x, Matrix &Y){
-
+/*
     double x_pole,y_pole,UT1_UTC,LOD,dpsi,deps,dx_pole,dy_pole,TAI_UTC;
 
     IERS(eopdata,auxParam.Mjd_TT +x/86400,'l',x_pole,y_pole,UT1_UTC,LOD,dpsi,deps,dx_pole,dy_pole,TAI_UTC);
@@ -95,7 +95,7 @@ Matrix Accel(double x, Matrix &Y){
 
 
 
-
+*/
 
 
 

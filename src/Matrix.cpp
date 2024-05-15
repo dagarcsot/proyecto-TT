@@ -172,3 +172,23 @@ Matrix Matrix::transpuesta() {
     }
     return result;
 }
+
+bool Matrix::equals(const Matrix &matrix2, int e) {
+    if (fil != matrix2.fil || col != matrix2.col){
+        return false;
+    } else{
+        for (int i = 0; i < fil; i++) {
+            for (int j = 0; j < col; j++) {
+                if (fabs(matrix[i][j] - matrix2.matrix[i][j]) > pow(10, -e)){
+                    return false;
+                }
+
+            }
+        }
+        return true;
+    }
+}
+
+
+
+

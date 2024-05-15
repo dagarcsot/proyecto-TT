@@ -20,7 +20,7 @@ Matrix Position(double lon, double lat, double h) {
     // Position vector
     double N = R_equ / sqrt(1.0 - e2 * SinLat * SinLat);
 
-    double v[] = {(N + h) * CosLat * cos(lon), (N + h) * CosLat * sin(lon), ((1.0 - e2) * N + h) * SinLat};
+    double v[] = {(N + h) * CosLat * cos(lon), (N + h) * CosLat * sin(lon), ((1.0-e2)*N+h)*SinLat};
     Matrix r = Matrix(1, 3, v, 3);
 
     return r;
