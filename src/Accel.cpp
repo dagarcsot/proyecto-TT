@@ -51,7 +51,7 @@ Matrix Accel(double x, Matrix &Y){
     Matrix r_Mercury(1, 3), r_Venus(1, 3), r_Earth(1, 3), r_Mars(1, 3), r_Jupiter(1, 3),
             r_Saturn(1, 3), r_Uranus(1, 3), r_Neptune(1, 3), r_Pluto(1, 3), r_Moon(1, 3),
             r_Sun(1, 3);
-    JPL_Eph_DE430(MJD_TDB,r_Mercury,r_Venus,r_Earth,r_Mars,r_Jupiter,r_Saturn,r_Uranus,r_Neptune,r_Pluto,r_Moon,r_Sun);
+   // JPL_Eph_DE430(MJD_TDB,r_Mercury,r_Venus,r_Earth,r_Mars,r_Jupiter,r_Saturn,r_Uranus,r_Neptune,r_Pluto,r_Moon,r_Sun);
 
     //Acceleration due to harmonic gravity field
     Matrix Yaux(1,3);

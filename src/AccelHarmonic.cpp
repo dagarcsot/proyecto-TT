@@ -49,12 +49,13 @@ Matrix AccelHarmonic(Matrix &r, Matrix &E, double n_max, double m_max) {
         b1 = (-gm / (d * d)) * pow(r_ref / d, n) * (n + 1);
         b2 = (gm / d) * pow(r_ref / d, n);
         b3 = (gm / d) * pow(r_ref / d, n);
-
+/*
         for (int m = 0; m <= m_max; m++) {
             q1 = q1 + pnm(n + 1, m + 1) * (Cnm[n][m] * cos(m * lon) + Snm[n][m]* sin(m * lon));
             q2 = q2 + dpnm(n + 1, m + 1) * (Cnm[n][m] * cos(m * lon) +Snm[n][m] * sin(m * lon));
             q3 = q3 + m * pnm(n + 1, m + 1) * (Snm[n][m] * cos(m * lon) - Cnm[n][m] * sin(m * lon));
         }
+        */
         dUdr = dUdr + q1 * b1;
         dUdlatgc = dUdlatgc + q2 * b2;
         dUdlon = dUdlon + q3 * b3;

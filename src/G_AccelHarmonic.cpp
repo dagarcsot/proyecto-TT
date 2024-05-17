@@ -18,7 +18,7 @@ Matrix G_AccelHarmonic(){
     double d = 1.0;
     Matrix G (3,3);
     Matrix dr(3,1);
-
+/*
     // Gradient
     for (int i=1;i<=3;i++){
         // Set offset in i-th component of the position vector
@@ -30,5 +30,7 @@ Matrix G_AccelHarmonic(){
         G(:,i) = da/d;
         end
     }
+    */
+return Matrix(1,1);
 
 }

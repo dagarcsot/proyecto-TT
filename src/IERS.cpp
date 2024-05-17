@@ -24,6 +24,7 @@ void IERS(Matrix &eop, double Mjd_UTC, char interp, double &x_pole, double &y_po
 
         int index = -1;
         double aux;
+
         for (int i = 0; i < eop.getNumCol(); ++i) {
             aux = floor(eop(4, i));
             if (mjd == aux) {
@@ -31,6 +32,8 @@ void IERS(Matrix &eop, double Mjd_UTC, char interp, double &x_pole, double &y_po
                 break;
             }
         }
+
+
 
         if (index == -1) {
             std::cout<<"Mjd_UTC was not found on eop";
