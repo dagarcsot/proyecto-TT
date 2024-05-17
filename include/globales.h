@@ -16,8 +16,8 @@ struct AuxParam {
     bool  planets;
 };
 
-extern Matrix Cnm;
-extern Matrix Snm;
+extern  double Cnm[181][181];
+extern double Snm[181][181];
 extern Matrix eopdata;
 extern AuxParam auxParam;
 

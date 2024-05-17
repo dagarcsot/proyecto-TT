@@ -78,6 +78,8 @@ int Position_01() {
     double v[] = {-5.512567840036068e+06 , -2.196994446669333e+06,2.330804966146887e+06};
     Matrix m1= Matrix(1, 3, v, 3);
     Matrix m2 = Position(lon,lat,alt);
+    m1.print();
+    m2.print();
 
     _assert(m1.equals(m2, 9));
 

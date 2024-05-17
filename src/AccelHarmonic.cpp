@@ -51,9 +51,9 @@ Matrix AccelHarmonic(Matrix &r, Matrix &E, double n_max, double m_max) {
         b3 = (gm / d) * pow(r_ref / d, n);
 
         for (int m = 0; m <= m_max; m++) {
-            q1 = q1 + pnm(n + 1, m + 1) * (Cnm(n + 1, m + 1) * cos(m * lon) + Snm(n + 1, m + 1) * sin(m * lon));
-            q2 = q2 + dpnm(n + 1, m + 1) * (Cnm(n + 1, m + 1) * cos(m * lon) + Snm(n + 1, m + 1) * sin(m * lon));
-            q3 = q3 + m * pnm(n + 1, m + 1) * (Snm(n + 1, m + 1) * cos(m * lon) - Cnm(n + 1, m + 1) * sin(m * lon));
+            q1 = q1 + pnm(n + 1, m + 1) * (Cnm[n][m] * cos(m * lon) + Snm[n][m]* sin(m * lon));
+            q2 = q2 + dpnm(n + 1, m + 1) * (Cnm[n][m] * cos(m * lon) +Snm[n][m] * sin(m * lon));
+            q3 = q3 + m * pnm(n + 1, m + 1) * (Snm[n][m] * cos(m * lon) - Cnm[n][m] * sin(m * lon));
         }
         dUdr = dUdr + q1 * b1;
         dUdlatgc = dUdlatgc + q2 * b2;
@@ -75,6 +75,7 @@ Matrix AccelHarmonic(Matrix &r, Matrix &E, double n_max, double m_max) {
     Matrix a_bf(3, 1, v, 3);
 
     // Inertial acceleration
-    return E.transpuesta() * a_bf;
+    Matrix a =  E.transpuesta() * a_bf;
+    return a;
 
 }

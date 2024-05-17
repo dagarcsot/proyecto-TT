@@ -8,6 +8,9 @@
 #include "../include/Mjday_TDB.h"
 #include "../include/AccelHarmonic.h"
 #include "../include/AccelPointMass.h"
+#include "../include/PoleMatrix.h"
+#include "../include/PrecMatrix.h"
+#include "../include/GHAMatrix.h"
 
 /*
  * Purpose:
@@ -26,7 +29,8 @@
  */
 
 Matrix Accel(double x, Matrix &Y){
-/*
+
+
     double x_pole,y_pole,UT1_UTC,LOD,dpsi,deps,dx_pole,dy_pole,TAI_UTC;
 
     IERS(eopdata,auxParam.Mjd_TT +x/86400,'l',x_pole,y_pole,UT1_UTC,LOD,dpsi,deps,dx_pole,dy_pole,TAI_UTC);
@@ -41,7 +45,7 @@ Matrix Accel(double x, Matrix &Y){
     Matrix P = PrecMatrix(MJD_J2000,Mjd_TT);
     Matrix N = NutMatrix(Mjd_TT);
     Matrix T = N * P;
-    Matrix E = Polematrix(x_pole,y_pole) * GHAMatrix(Mjd_UT1) * T;
+    Matrix E = PoleMatrix(x_pole,y_pole) * GHAMatrix(Mjd_UT1) * T;
 
     double MJD_TDB = Mjday_TDB(Mjd_TT);
     Matrix r_Mercury(1, 3), r_Venus(1, 3), r_Earth(1, 3), r_Mars(1, 3), r_Jupiter(1, 3),
@@ -95,7 +99,7 @@ Matrix Accel(double x, Matrix &Y){
 
 
 
-*/
+
 
 
 
