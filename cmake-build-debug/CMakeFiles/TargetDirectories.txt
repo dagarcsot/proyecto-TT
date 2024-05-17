@@ -1,4 +1,4 @@
-C:/Users/danie/OneDrive/Escritorio/proyecto-TT/cmake-build-debug/CMakeFiles/proyecto.dir
-C:/Users/danie/OneDrive/Escritorio/proyecto-TT/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/danie/OneDrive/Escritorio/proyecto-TT/cmake-build-debug/CMakeFiles/prueba.dir
-C:/Users/danie/OneDrive/Escritorio/proyecto-TT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/dagarcsot/CLionProjects/proyecto-TT/cmake-build-debug/CMakeFiles/proyecto.dir
+C:/Users/dagarcsot/CLionProjects/proyecto-TT/cmake-build-debug/CMakeFiles/prueba.dir
+C:/Users/dagarcsot/CLionProjects/proyecto-TT/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dagarcsot/CLionProjects/proyecto-TT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
