@@ -25,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/prueba.dir/src/Global.cpp.obj.d"
   "CMakeFiles/prueba.dir/src/IERS.cpp.obj"
   "CMakeFiles/prueba.dir/src/IERS.cpp.obj.d"
+  "CMakeFiles/prueba.dir/src/JPL_Eph_DE430.cpp.obj"
+  "CMakeFiles/prueba.dir/src/JPL_Eph_DE430.cpp.obj.d"
   "CMakeFiles/prueba.dir/src/LTC.cpp.obj"
   "CMakeFiles/prueba.dir/src/LTC.cpp.obj.d"
   "CMakeFiles/prueba.dir/src/Legendre.cpp.obj"

@@ -42,8 +42,6 @@ void IERS(Matrix &eop, double Mjd_UTC, char interp, double &x_pole, double &y_po
 
         Matrix preeop = eop.getCol(index);
         Matrix nexteop = eop.getCol(index + 1);
-        preeop.print();
-        nexteop.print();
 
         double mfme = 1440 * Frac(Mjd_UTC);
         double fixf = mfme / 1440;
@@ -76,27 +74,26 @@ void IERS(Matrix &eop, double Mjd_UTC, char interp, double &x_pole, double &y_po
                 break;
             }
         }
-
         if (index == -1) {
             std::cout << "Mjd_UTC was not found on eop";
             exit(-1);
         }
 
-        Matrix preeop = eop.getCol(index);
-        Matrix nexteop = eop.getCol(index);
+        Matrix eopAux = eop.getCol(index);
+
 
         //Setting of IERS Earth rotation parameters
         // (UT1-UTC [s], TAI-UTC [s], x ["], y ["])
 
-        x_pole = eop(1, 5) / Arcs; // Pole coordinate [rad]
-        y_pole = eop(1, 6) / Arcs; // Pole coordinate [rad]
-        UT1_UTC = eop(1, 7);      // UT1-UTC time difference [s]
-        LOD = eop(1, 8);          //  Length of day [s]
-        dpsi = eop(1, 9) / Arcs;
-        deps = eop(1, 10) / Arcs;
-        dx_pole = eop(1, 11) / Arcs; // Pole coordinate [rad]
-        dy_pole = eop(1, 12) / Arcs; // Pole coordinate [rad]
-        TAI_UTC = eop(1, 13);       // TAI-UTC time difference [s]
+        x_pole = eopAux (1, 5) / Arcs; // Pole coordinate [rad]
+        y_pole = eopAux (1, 6) / Arcs; // Pole coordinate [rad]
+        UT1_UTC = eopAux (1, 7);      // UT1-UTC time difference [s]
+        LOD = eopAux (1, 8);          //  Length of day [s]
+        dpsi = eopAux (1, 9) / Arcs;
+        deps = eopAux (1, 10) / Arcs;
+        dx_pole = eopAux (1, 11) / Arcs; // Pole coordinate [rad]
+        dy_pole = eopAux (1, 12) / Arcs; // Pole coordinate [rad]
+        TAI_UTC = eopAux (1, 13);       // TAI-UTC time difference [s]
     }
 
 }

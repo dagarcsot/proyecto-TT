@@ -190,5 +190,35 @@ bool Matrix::equals(const Matrix &matrix2, int e) {
 }
 
 
+Matrix Matrix::getPrimeraFil(int inic,int fin) {
+    int lon = fin - inic +1;
+    Matrix result(1, lon);
+
+    for (int i = 0; i < lon; i++) {
+        result.matrix[0][i] = matrix[i][0];
+
+    }
+    return result;
+
+}
+
+Matrix Matrix::concatenar(const Matrix &matrix2) {
+    Matrix result(fil, col + matrix2.col);
+
+    for (int i = 0; i < fil; ++i) {
+        for (int j = 0; j < col; ++j) {
+            result.matrix[i][j] = matrix[i][j];
+        }
+    }
+    for (int i = 0; i < matrix2.fil; ++i) {
+        for (int j = 0; j < matrix2.col; ++j) {
+            result.matrix[i][col + j] = matrix2.matrix[i][j];
+        }
+    }
+
+    return result;
+}
+
+
 
 

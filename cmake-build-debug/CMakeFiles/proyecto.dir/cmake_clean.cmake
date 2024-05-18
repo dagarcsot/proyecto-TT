@@ -29,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/proyecto.dir/src/Global.cpp.obj.d"
   "CMakeFiles/proyecto.dir/src/IERS.cpp.obj"
   "CMakeFiles/proyecto.dir/src/IERS.cpp.obj.d"
+  "CMakeFiles/proyecto.dir/src/JPL_Eph_DE430.cpp.obj"
+  "CMakeFiles/proyecto.dir/src/JPL_Eph_DE430.cpp.obj.d"
   "CMakeFiles/proyecto.dir/src/LTC.cpp.obj"
   "CMakeFiles/proyecto.dir/src/LTC.cpp.obj.d"
   "CMakeFiles/proyecto.dir/src/Legendre.cpp.obj"

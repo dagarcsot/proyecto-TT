@@ -19,6 +19,7 @@ public:
     Matrix operator*(double producto);
 
     Matrix transpuesta();
+    Matrix concatenar(const Matrix &matrix2);
 
     double dot(const Matrix &matrix2);
     double norma();
@@ -28,6 +29,8 @@ public:
 
     Matrix getFil(int fil);
     Matrix getCol(int col);
+
+    Matrix getPrimeraFil(int inic,int fin);
 
 
     void print();

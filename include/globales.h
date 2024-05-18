@@ -20,6 +20,7 @@ extern  double Cnm[181][181];
 extern double Snm[181][181];
 extern Matrix eopdata;
 extern AuxParam auxParam;
+extern Matrix PC;
 
 
 #endif //PROYECTO_GLOBALES_H

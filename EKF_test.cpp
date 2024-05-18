@@ -88,13 +88,14 @@ int Position_01() {
 int IERS_01() {
     // Datos de entrada
     Matrix eop(13, 2);
-    eop(0, 0) = 2022; eop(1, 0) = 1; eop(2, 0) = 1; eop(3, 0) = 59544; eop(4, 0) = 0.196;
-    eop(5, 0) = 0.232; eop(6, 0) = -0.228; eop(7, 0) = 0.1; eop(8, 0) = 0.2; eop(9, 0) = 0.3;
-    eop(10, 0) = 0.4; eop(11, 0) = 0.5; eop(12, 0) = 37;
+    eop(1, 1) = 2022; eop(2, 1) = 1; eop(3, 1) = 1; eop(4, 1) = 59544; eop(5, 1) = 0.196;
+    eop(6, 1) = 0.232; eop(7, 1) = -0.228; eop(8, 1) = 0.1; eop(9, 1) = 0.2; eop(10, 1) = 0.3;
+    eop(11, 1) = 0.4; eop(12, 1) = 0.5; eop(13, 1) = 37;
 
-    eop(0, 1) = 2022; eop(1, 1) = 1; eop(2, 1) = 2; eop(3, 1) = 59545; eop(4, 1) = 0.197;
-    eop(5, 1) = 0.233; eop(6, 1) = -0.227; eop(7, 1) = 0.1; eop(8, 1) = 0.2; eop(9, 1) = 0.3;
-    eop(10, 1) = 0.4; eop(11, 1) = 0.5; eop(12, 1) = 37;
+    eop(1, 2) = 2022; eop(2, 2) = 1; eop(3, 2) = 2; eop(4, 2) = 59545; eop(5, 2) = 0.197;
+    eop(6, 2) = 0.233; eop(7, 2) = -0.227; eop(8, 2) = 0.1; eop(9, 2) = 0.2; eop(10, 2) = 0.3;
+    eop(11, 2) = 0.4; eop(12, 2) = 0.5; eop(13, 2) = 37;
+
 
     double Mjd_UTC = 59544.5;
     char interp = 'l';
@@ -114,10 +115,49 @@ int IERS_01() {
     std::cout << "deps: " << deps << std::endl;
     std::cout << "dx_pole: " << dx_pole << std::endl;
     std::cout << "dy_pole: " << dy_pole << std::endl;
+    std::cout << "TAI_UTC: " << TAI_UTC << std::endl<<endl;
+
+    double tolerancia = 1e-10;
+
+    _assert(fabs(x_pole - 9.526589e-07)<tolerancia);
+    _assert(fabs(y_pole - 1.127192e-06)<tolerancia);
+    _assert(fabs(UT1_UTC -(-0.227500))<tolerancia);
+    _assert(fabs(LOD -0.100000)<tolerancia);
+    _assert(fabs(dpsi - 9.696274e-07)<tolerancia);
+    _assert(fabs(deps -1.454441e-06)<tolerancia);
+    _assert(fabs(dx_pole- 1.939255e-06)<tolerancia);
+    _assert(fabs(dy_pole - 2.424068e-06)<tolerancia);
+    _assert(fabs(TAI_UTC - 37.000000)<tolerancia);
+
+    interp = 'n';
+
+
+    IERS(eop, Mjd_UTC, interp, x_pole, y_pole, UT1_UTC, LOD, dpsi, deps, dx_pole, dy_pole, TAI_UTC);
+
+
+    std::cout << "x_pole: " << x_pole << std::endl;
+    std::cout << "y_pole: " << y_pole << std::endl;
+    std::cout << "UT1_UTC: " << UT1_UTC << std::endl;
+    std::cout << "LOD: " << LOD << std::endl;
+    std::cout << "dpsi: " << dpsi << std::endl;
+    std::cout << "deps: " << deps << std::endl;
+    std::cout << "dx_pole: " << dx_pole << std::endl;
+    std::cout << "dy_pole: " << dy_pole << std::endl;
     std::cout << "TAI_UTC: " << TAI_UTC << std::endl;
 
-    _assert(x_pole == 9.526589e-07 && y_pole==1.127192e-06 && UT1_UTC==-0.227500 && LOD==0.100000 && dpsi==9.696274e-07
-            && deps==1.454441e-06 );
+    _assert(fabs(x_pole - 9.502348e-07)<tolerancia);
+    _assert(fabs(y_pole -1.124768e-06)<tolerancia);
+    _assert(fabs(UT1_UTC -(-0.22800))<tolerancia);
+    _assert(fabs(LOD -0.100000)<tolerancia);
+    _assert(fabs(dpsi - 9.696274e-07)<tolerancia);
+    _assert(fabs(deps -1.454441e-06)<tolerancia);
+    _assert(fabs(dx_pole- 1.939255e-06)<tolerancia);
+    _assert(fabs(dy_pole - 2.424068e-06)<tolerancia);
+    _assert(fabs(TAI_UTC - 37.000000)<tolerancia);
+
+
+
+
 
     return 0;
 
