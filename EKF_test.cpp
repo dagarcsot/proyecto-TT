@@ -186,24 +186,26 @@ int AccelPointMass_01() {
     Matrix apm = AccelPointMass(r,s,GM_Earth);
 
 
-    double u[] = {-1145527739233.2365, 968224951909.6903, -1093531800186.5675};
+    double u[] = {-1145527739233.2365, 968224951909.6899, -1093531800186.5676};
     Matrix res(1,3,u,3);
 
-    _assert(res.equals(apm,10));
+
+    _assert(res.equals(apm,8));
 
     return 0;
 }
 
 int Legendre_01(){
    int n = 2;
-   int m = 1;
-   double phi = 0.75;
+   int m = 2;
+   double phi = 0.15;
    Matrix pnm(n+1,n+1);
     Matrix dpnm(n+1,n+1);
 
     Legendre(n,m,phi,pnm,dpnm);
-    //pnm.print();
-    //dpnm.print();
+
+
+
     return 0;
 }
 

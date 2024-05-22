@@ -11,6 +11,7 @@
 #include "../include/PoleMatrix.h"
 #include "../include/PrecMatrix.h"
 #include "../include/GHAMatrix.h"
+#include "../include/JPL_Eph_DE430.h"
 
 /*
  * Purpose:
@@ -51,7 +52,7 @@ Matrix Accel(double x, Matrix &Y){
     Matrix r_Mercury(1, 3), r_Venus(1, 3), r_Earth(1, 3), r_Mars(1, 3), r_Jupiter(1, 3),
             r_Saturn(1, 3), r_Uranus(1, 3), r_Neptune(1, 3), r_Pluto(1, 3), r_Moon(1, 3),
             r_Sun(1, 3);
-   // JPL_Eph_DE430(MJD_TDB,r_Mercury,r_Venus,r_Earth,r_Mars,r_Jupiter,r_Saturn,r_Uranus,r_Neptune,r_Pluto,r_Moon,r_Sun);
+    JPL_Eph_DE430(MJD_TDB,r_Mercury,r_Venus,r_Earth,r_Mars,r_Jupiter,r_Saturn,r_Uranus,r_Neptune,r_Pluto,r_Moon,r_Sun);
 
     //Acceleration due to harmonic gravity field
     Matrix Yaux(1,3);
@@ -81,9 +82,6 @@ Matrix Accel(double x, Matrix &Y){
     }
 
     //Planetary perturbations
-
-
-
     Matrix dY(2,3);
     dY(1,1) = Y(4,1);
     dY(1,2) = Y(5,1);
@@ -92,16 +90,5 @@ Matrix Accel(double x, Matrix &Y){
     dY(2,1) = a(1,1);
     dY(2,2) = a(1,2);
     dY(2,3) = a(1,3);
-
     return dY;
-
-
-
-
-
-
-
-
-
-
 }
