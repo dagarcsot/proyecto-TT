@@ -25,20 +25,17 @@ using namespace std;
 
 
 int main() {
-    // Ejemplo de uso de la función TimeUpdate
-    Matrix eop(13, 2);
-    eop(1, 1) = 2022; eop(2, 1) = 5; eop(3, 1) = 1; eop(4, 1) = 59544; eop(5, 1) = 0.196;
-    eop(6, 1) = 0.232; eop(7, 1) = -0.228; eop(8, 1) = 0.1; eop(9, 1) = 0.2; eop(10, 1) = 0.3;
-    eop(11, 1) = 0.4; eop(12, 1) = 0.5; eop(13, 1) = 37;
+    double v[] = {7.0, 2.0, 5.0,6.0};
+    Matrix r = Matrix(2, 2, v, 4);
+    r.print();
+    Matrix s(1,1);
+    s(1,1) = 4;
+    s.inversa().print();
 
-    eop(1, 2) = 2022; eop(2, 2) = 1; eop(3, 2) = 2; eop(4, 2) = 59545; eop(5, 2) = 0.197;
-    eop(6, 2) = 0.233; eop(7, 2) = -0.227; eop(8, 2) = 0.1; eop(9, 2) = 0.2; eop(10, 2) = 0.3;
-    eop(11, 2) = 0.4; eop(12, 2) = 0.5; eop(13, 2) = 37;
 
-    eop.print();
 
-    Matrix a = eop.getPrimeraFil(1,3);
-    a.print();
+
+
     return 0;
 
 }

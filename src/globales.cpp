@@ -1,6 +1,8 @@
 #include "../include/globales.h"
 
 
-
-Matrix eopdata = Matrix(1,1);
+double Cnm[181][181];
+double Snm[181][181];
+Matrix eopdata(1,1);
 AuxParam auxParam;
+Matrix PC(1,1);

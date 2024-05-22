@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/proyecto.dir/EKF.cpp.obj"
   "CMakeFiles/proyecto.dir/EKF.cpp.obj.d"
-  "CMakeFiles/proyecto.dir/EKF_test.cpp.obj"
-  "CMakeFiles/proyecto.dir/EKF_test.cpp.obj.d"
   "CMakeFiles/proyecto.dir/src/Accel.cpp.obj"
   "CMakeFiles/proyecto.dir/src/Accel.cpp.obj.d"
   "CMakeFiles/proyecto.dir/src/AccelHarmonic.cpp.obj"

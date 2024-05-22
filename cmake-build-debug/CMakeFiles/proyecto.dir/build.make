@@ -82,24 +82,10 @@ CMakeFiles/proyecto.dir/EKF.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proyecto.dir/EKF.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\danie\Desktop\proyectoTT\EKF.cpp -o CMakeFiles\proyecto.dir\EKF.cpp.s
 
-CMakeFiles/proyecto.dir/EKF_test.cpp.obj: CMakeFiles/proyecto.dir/flags.make
-CMakeFiles/proyecto.dir/EKF_test.cpp.obj: ../EKF_test.cpp
-CMakeFiles/proyecto.dir/EKF_test.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proyecto.dir/EKF_test.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/EKF_test.cpp.obj -MF CMakeFiles\proyecto.dir\EKF_test.cpp.obj.d -o CMakeFiles\proyecto.dir\EKF_test.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\EKF_test.cpp
-
-CMakeFiles/proyecto.dir/EKF_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proyecto.dir/EKF_test.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\danie\Desktop\proyectoTT\EKF_test.cpp > CMakeFiles\proyecto.dir\EKF_test.cpp.i
-
-CMakeFiles/proyecto.dir/EKF_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proyecto.dir/EKF_test.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\danie\Desktop\proyectoTT\EKF_test.cpp -o CMakeFiles\proyecto.dir\EKF_test.cpp.s
-
 CMakeFiles/proyecto.dir/src/Matrix.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/Matrix.cpp.obj: ../src/Matrix.cpp
 CMakeFiles/proyecto.dir/src/Matrix.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/proyecto.dir/src/Matrix.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proyecto.dir/src/Matrix.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/Matrix.cpp.obj -MF CMakeFiles\proyecto.dir\src\Matrix.cpp.obj.d -o CMakeFiles\proyecto.dir\src\Matrix.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\Matrix.cpp
 
 CMakeFiles/proyecto.dir/src/Matrix.cpp.i: cmake_force
@@ -113,7 +99,7 @@ CMakeFiles/proyecto.dir/src/Matrix.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/R_z.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/R_z.cpp.obj: ../src/R_z.cpp
 CMakeFiles/proyecto.dir/src/R_z.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/proyecto.dir/src/R_z.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/proyecto.dir/src/R_z.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/R_z.cpp.obj -MF CMakeFiles\proyecto.dir\src\R_z.cpp.obj.d -o CMakeFiles\proyecto.dir\src\R_z.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\R_z.cpp
 
 CMakeFiles/proyecto.dir/src/R_z.cpp.i: cmake_force
@@ -127,7 +113,7 @@ CMakeFiles/proyecto.dir/src/R_z.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/R_x.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/R_x.cpp.obj: ../src/R_x.cpp
 CMakeFiles/proyecto.dir/src/R_x.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/proyecto.dir/src/R_x.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/proyecto.dir/src/R_x.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/R_x.cpp.obj -MF CMakeFiles\proyecto.dir\src\R_x.cpp.obj.d -o CMakeFiles\proyecto.dir\src\R_x.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\R_x.cpp
 
 CMakeFiles/proyecto.dir/src/R_x.cpp.i: cmake_force
@@ -141,7 +127,7 @@ CMakeFiles/proyecto.dir/src/R_x.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/R_y.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/R_y.cpp.obj: ../src/R_y.cpp
 CMakeFiles/proyecto.dir/src/R_y.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/proyecto.dir/src/R_y.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/proyecto.dir/src/R_y.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/R_y.cpp.obj -MF CMakeFiles\proyecto.dir\src\R_y.cpp.obj.d -o CMakeFiles\proyecto.dir\src\R_y.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\R_y.cpp
 
 CMakeFiles/proyecto.dir/src/R_y.cpp.i: cmake_force
@@ -155,7 +141,7 @@ CMakeFiles/proyecto.dir/src/R_y.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/AccelPointMass.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/AccelPointMass.cpp.obj: ../src/AccelPointMass.cpp
 CMakeFiles/proyecto.dir/src/AccelPointMass.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/proyecto.dir/src/AccelPointMass.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/proyecto.dir/src/AccelPointMass.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/AccelPointMass.cpp.obj -MF CMakeFiles\proyecto.dir\src\AccelPointMass.cpp.obj.d -o CMakeFiles\proyecto.dir\src\AccelPointMass.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\AccelPointMass.cpp
 
 CMakeFiles/proyecto.dir/src/AccelPointMass.cpp.i: cmake_force
@@ -169,7 +155,7 @@ CMakeFiles/proyecto.dir/src/AccelPointMass.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/Frac.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/Frac.cpp.obj: ../src/Frac.cpp
 CMakeFiles/proyecto.dir/src/Frac.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/proyecto.dir/src/Frac.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/proyecto.dir/src/Frac.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/Frac.cpp.obj -MF CMakeFiles\proyecto.dir\src\Frac.cpp.obj.d -o CMakeFiles\proyecto.dir\src\Frac.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\Frac.cpp
 
 CMakeFiles/proyecto.dir/src/Frac.cpp.i: cmake_force
@@ -183,7 +169,7 @@ CMakeFiles/proyecto.dir/src/Frac.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/Global.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/Global.cpp.obj: ../src/Global.cpp
 CMakeFiles/proyecto.dir/src/Global.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/proyecto.dir/src/Global.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/proyecto.dir/src/Global.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/Global.cpp.obj -MF CMakeFiles\proyecto.dir\src\Global.cpp.obj.d -o CMakeFiles\proyecto.dir\src\Global.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\Global.cpp
 
 CMakeFiles/proyecto.dir/src/Global.cpp.i: cmake_force
@@ -197,7 +183,7 @@ CMakeFiles/proyecto.dir/src/Global.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/sign_.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/sign_.cpp.obj: ../src/sign_.cpp
 CMakeFiles/proyecto.dir/src/sign_.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/proyecto.dir/src/sign_.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/proyecto.dir/src/sign_.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/sign_.cpp.obj -MF CMakeFiles\proyecto.dir\src\sign_.cpp.obj.d -o CMakeFiles\proyecto.dir\src\sign_.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\sign_.cpp
 
 CMakeFiles/proyecto.dir/src/sign_.cpp.i: cmake_force
@@ -211,7 +197,7 @@ CMakeFiles/proyecto.dir/src/sign_.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/unit.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/unit.cpp.obj: ../src/unit.cpp
 CMakeFiles/proyecto.dir/src/unit.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/proyecto.dir/src/unit.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/proyecto.dir/src/unit.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/unit.cpp.obj -MF CMakeFiles\proyecto.dir\src\unit.cpp.obj.d -o CMakeFiles\proyecto.dir\src\unit.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\unit.cpp
 
 CMakeFiles/proyecto.dir/src/unit.cpp.i: cmake_force
@@ -225,7 +211,7 @@ CMakeFiles/proyecto.dir/src/unit.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/AzElPa.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/AzElPa.cpp.obj: ../src/AzElPa.cpp
 CMakeFiles/proyecto.dir/src/AzElPa.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/proyecto.dir/src/AzElPa.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/proyecto.dir/src/AzElPa.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/AzElPa.cpp.obj -MF CMakeFiles\proyecto.dir\src\AzElPa.cpp.obj.d -o CMakeFiles\proyecto.dir\src\AzElPa.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\AzElPa.cpp
 
 CMakeFiles/proyecto.dir/src/AzElPa.cpp.i: cmake_force
@@ -239,7 +225,7 @@ CMakeFiles/proyecto.dir/src/AzElPa.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/IERS.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/IERS.cpp.obj: ../src/IERS.cpp
 CMakeFiles/proyecto.dir/src/IERS.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/proyecto.dir/src/IERS.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/proyecto.dir/src/IERS.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/IERS.cpp.obj -MF CMakeFiles\proyecto.dir\src\IERS.cpp.obj.d -o CMakeFiles\proyecto.dir\src\IERS.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\IERS.cpp
 
 CMakeFiles/proyecto.dir/src/IERS.cpp.i: cmake_force
@@ -253,7 +239,7 @@ CMakeFiles/proyecto.dir/src/IERS.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/PoleMatrix.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/PoleMatrix.cpp.obj: ../src/PoleMatrix.cpp
 CMakeFiles/proyecto.dir/src/PoleMatrix.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/proyecto.dir/src/PoleMatrix.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/proyecto.dir/src/PoleMatrix.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/PoleMatrix.cpp.obj -MF CMakeFiles\proyecto.dir\src\PoleMatrix.cpp.obj.d -o CMakeFiles\proyecto.dir\src\PoleMatrix.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\PoleMatrix.cpp
 
 CMakeFiles/proyecto.dir/src/PoleMatrix.cpp.i: cmake_force
@@ -267,7 +253,7 @@ CMakeFiles/proyecto.dir/src/PoleMatrix.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/NutMatrix.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/NutMatrix.cpp.obj: ../src/NutMatrix.cpp
 CMakeFiles/proyecto.dir/src/NutMatrix.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/proyecto.dir/src/NutMatrix.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/proyecto.dir/src/NutMatrix.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/NutMatrix.cpp.obj -MF CMakeFiles\proyecto.dir\src\NutMatrix.cpp.obj.d -o CMakeFiles\proyecto.dir\src\NutMatrix.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\NutMatrix.cpp
 
 CMakeFiles/proyecto.dir/src/NutMatrix.cpp.i: cmake_force
@@ -281,7 +267,7 @@ CMakeFiles/proyecto.dir/src/NutMatrix.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/Mjday.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/Mjday.cpp.obj: ../src/Mjday.cpp
 CMakeFiles/proyecto.dir/src/Mjday.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/proyecto.dir/src/Mjday.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/proyecto.dir/src/Mjday.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/Mjday.cpp.obj -MF CMakeFiles\proyecto.dir\src\Mjday.cpp.obj.d -o CMakeFiles\proyecto.dir\src\Mjday.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\Mjday.cpp
 
 CMakeFiles/proyecto.dir/src/Mjday.cpp.i: cmake_force
@@ -295,7 +281,7 @@ CMakeFiles/proyecto.dir/src/Mjday.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/NutAngles.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/NutAngles.cpp.obj: ../src/NutAngles.cpp
 CMakeFiles/proyecto.dir/src/NutAngles.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/proyecto.dir/src/NutAngles.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/proyecto.dir/src/NutAngles.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/NutAngles.cpp.obj -MF CMakeFiles\proyecto.dir\src\NutAngles.cpp.obj.d -o CMakeFiles\proyecto.dir\src\NutAngles.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\NutAngles.cpp
 
 CMakeFiles/proyecto.dir/src/NutAngles.cpp.i: cmake_force
@@ -309,7 +295,7 @@ CMakeFiles/proyecto.dir/src/NutAngles.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/MeanObliquity.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/MeanObliquity.cpp.obj: ../src/MeanObliquity.cpp
 CMakeFiles/proyecto.dir/src/MeanObliquity.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/proyecto.dir/src/MeanObliquity.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/proyecto.dir/src/MeanObliquity.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/MeanObliquity.cpp.obj -MF CMakeFiles\proyecto.dir\src\MeanObliquity.cpp.obj.d -o CMakeFiles\proyecto.dir\src\MeanObliquity.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\MeanObliquity.cpp
 
 CMakeFiles/proyecto.dir/src/MeanObliquity.cpp.i: cmake_force
@@ -323,7 +309,7 @@ CMakeFiles/proyecto.dir/src/MeanObliquity.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/timediff.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/timediff.cpp.obj: ../src/timediff.cpp
 CMakeFiles/proyecto.dir/src/timediff.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/proyecto.dir/src/timediff.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/proyecto.dir/src/timediff.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/timediff.cpp.obj -MF CMakeFiles\proyecto.dir\src\timediff.cpp.obj.d -o CMakeFiles\proyecto.dir\src\timediff.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\timediff.cpp
 
 CMakeFiles/proyecto.dir/src/timediff.cpp.i: cmake_force
@@ -337,7 +323,7 @@ CMakeFiles/proyecto.dir/src/timediff.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/Position.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/Position.cpp.obj: ../src/Position.cpp
 CMakeFiles/proyecto.dir/src/Position.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/proyecto.dir/src/Position.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/proyecto.dir/src/Position.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/Position.cpp.obj -MF CMakeFiles\proyecto.dir\src\Position.cpp.obj.d -o CMakeFiles\proyecto.dir\src\Position.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\Position.cpp
 
 CMakeFiles/proyecto.dir/src/Position.cpp.i: cmake_force
@@ -351,7 +337,7 @@ CMakeFiles/proyecto.dir/src/Position.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/Cheb3D.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/Cheb3D.cpp.obj: ../src/Cheb3D.cpp
 CMakeFiles/proyecto.dir/src/Cheb3D.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/proyecto.dir/src/Cheb3D.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/proyecto.dir/src/Cheb3D.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/Cheb3D.cpp.obj -MF CMakeFiles\proyecto.dir\src\Cheb3D.cpp.obj.d -o CMakeFiles\proyecto.dir\src\Cheb3D.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\Cheb3D.cpp
 
 CMakeFiles/proyecto.dir/src/Cheb3D.cpp.i: cmake_force
@@ -365,7 +351,7 @@ CMakeFiles/proyecto.dir/src/Cheb3D.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/EccAnom.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/EccAnom.cpp.obj: ../src/EccAnom.cpp
 CMakeFiles/proyecto.dir/src/EccAnom.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/proyecto.dir/src/EccAnom.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/proyecto.dir/src/EccAnom.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/EccAnom.cpp.obj -MF CMakeFiles\proyecto.dir\src\EccAnom.cpp.obj.d -o CMakeFiles\proyecto.dir\src\EccAnom.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\EccAnom.cpp
 
 CMakeFiles/proyecto.dir/src/EccAnom.cpp.i: cmake_force
@@ -379,7 +365,7 @@ CMakeFiles/proyecto.dir/src/EccAnom.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/Geodetic.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/Geodetic.cpp.obj: ../src/Geodetic.cpp
 CMakeFiles/proyecto.dir/src/Geodetic.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/proyecto.dir/src/Geodetic.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/proyecto.dir/src/Geodetic.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/Geodetic.cpp.obj -MF CMakeFiles\proyecto.dir\src\Geodetic.cpp.obj.d -o CMakeFiles\proyecto.dir\src\Geodetic.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\Geodetic.cpp
 
 CMakeFiles/proyecto.dir/src/Geodetic.cpp.i: cmake_force
@@ -393,7 +379,7 @@ CMakeFiles/proyecto.dir/src/Geodetic.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/Mjday_TDB.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/Mjday_TDB.cpp.obj: ../src/Mjday_TDB.cpp
 CMakeFiles/proyecto.dir/src/Mjday_TDB.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/proyecto.dir/src/Mjday_TDB.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/proyecto.dir/src/Mjday_TDB.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/Mjday_TDB.cpp.obj -MF CMakeFiles\proyecto.dir\src\Mjday_TDB.cpp.obj.d -o CMakeFiles\proyecto.dir\src\Mjday_TDB.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\Mjday_TDB.cpp
 
 CMakeFiles/proyecto.dir/src/Mjday_TDB.cpp.i: cmake_force
@@ -407,7 +393,7 @@ CMakeFiles/proyecto.dir/src/Mjday_TDB.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/Legendre.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/Legendre.cpp.obj: ../src/Legendre.cpp
 CMakeFiles/proyecto.dir/src/Legendre.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/proyecto.dir/src/Legendre.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/proyecto.dir/src/Legendre.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/Legendre.cpp.obj -MF CMakeFiles\proyecto.dir\src\Legendre.cpp.obj.d -o CMakeFiles\proyecto.dir\src\Legendre.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\Legendre.cpp
 
 CMakeFiles/proyecto.dir/src/Legendre.cpp.i: cmake_force
@@ -421,7 +407,7 @@ CMakeFiles/proyecto.dir/src/Legendre.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/AccelHarmonic.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/AccelHarmonic.cpp.obj: ../src/AccelHarmonic.cpp
 CMakeFiles/proyecto.dir/src/AccelHarmonic.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/proyecto.dir/src/AccelHarmonic.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/proyecto.dir/src/AccelHarmonic.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/AccelHarmonic.cpp.obj -MF CMakeFiles\proyecto.dir\src\AccelHarmonic.cpp.obj.d -o CMakeFiles\proyecto.dir\src\AccelHarmonic.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\AccelHarmonic.cpp
 
 CMakeFiles/proyecto.dir/src/AccelHarmonic.cpp.i: cmake_force
@@ -435,7 +421,7 @@ CMakeFiles/proyecto.dir/src/AccelHarmonic.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/globales.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/globales.cpp.obj: ../src/globales.cpp
 CMakeFiles/proyecto.dir/src/globales.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/proyecto.dir/src/globales.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/proyecto.dir/src/globales.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/globales.cpp.obj -MF CMakeFiles\proyecto.dir\src\globales.cpp.obj.d -o CMakeFiles\proyecto.dir\src\globales.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\globales.cpp
 
 CMakeFiles/proyecto.dir/src/globales.cpp.i: cmake_force
@@ -449,7 +435,7 @@ CMakeFiles/proyecto.dir/src/globales.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/Accel.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/Accel.cpp.obj: ../src/Accel.cpp
 CMakeFiles/proyecto.dir/src/Accel.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/proyecto.dir/src/Accel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/proyecto.dir/src/Accel.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/Accel.cpp.obj -MF CMakeFiles\proyecto.dir\src\Accel.cpp.obj.d -o CMakeFiles\proyecto.dir\src\Accel.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\Accel.cpp
 
 CMakeFiles/proyecto.dir/src/Accel.cpp.i: cmake_force
@@ -463,7 +449,7 @@ CMakeFiles/proyecto.dir/src/Accel.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/PrecMatrix.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/PrecMatrix.cpp.obj: ../src/PrecMatrix.cpp
 CMakeFiles/proyecto.dir/src/PrecMatrix.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/proyecto.dir/src/PrecMatrix.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/proyecto.dir/src/PrecMatrix.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/PrecMatrix.cpp.obj -MF CMakeFiles\proyecto.dir\src\PrecMatrix.cpp.obj.d -o CMakeFiles\proyecto.dir\src\PrecMatrix.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\PrecMatrix.cpp
 
 CMakeFiles/proyecto.dir/src/PrecMatrix.cpp.i: cmake_force
@@ -477,7 +463,7 @@ CMakeFiles/proyecto.dir/src/PrecMatrix.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/TimeUpdate.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/TimeUpdate.cpp.obj: ../src/TimeUpdate.cpp
 CMakeFiles/proyecto.dir/src/TimeUpdate.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/proyecto.dir/src/TimeUpdate.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/proyecto.dir/src/TimeUpdate.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/TimeUpdate.cpp.obj -MF CMakeFiles\proyecto.dir\src\TimeUpdate.cpp.obj.d -o CMakeFiles\proyecto.dir\src\TimeUpdate.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\TimeUpdate.cpp
 
 CMakeFiles/proyecto.dir/src/TimeUpdate.cpp.i: cmake_force
@@ -491,7 +477,7 @@ CMakeFiles/proyecto.dir/src/TimeUpdate.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/MeasUpdate.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/MeasUpdate.cpp.obj: ../src/MeasUpdate.cpp
 CMakeFiles/proyecto.dir/src/MeasUpdate.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/proyecto.dir/src/MeasUpdate.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/proyecto.dir/src/MeasUpdate.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/MeasUpdate.cpp.obj -MF CMakeFiles\proyecto.dir\src\MeasUpdate.cpp.obj.d -o CMakeFiles\proyecto.dir\src\MeasUpdate.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\MeasUpdate.cpp
 
 CMakeFiles/proyecto.dir/src/MeasUpdate.cpp.i: cmake_force
@@ -505,7 +491,7 @@ CMakeFiles/proyecto.dir/src/MeasUpdate.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/GHAMatrix.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/GHAMatrix.cpp.obj: ../src/GHAMatrix.cpp
 CMakeFiles/proyecto.dir/src/GHAMatrix.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/proyecto.dir/src/GHAMatrix.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/proyecto.dir/src/GHAMatrix.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/GHAMatrix.cpp.obj -MF CMakeFiles\proyecto.dir\src\GHAMatrix.cpp.obj.d -o CMakeFiles\proyecto.dir\src\GHAMatrix.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\GHAMatrix.cpp
 
 CMakeFiles/proyecto.dir/src/GHAMatrix.cpp.i: cmake_force
@@ -519,7 +505,7 @@ CMakeFiles/proyecto.dir/src/GHAMatrix.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/gast.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/gast.cpp.obj: ../src/gast.cpp
 CMakeFiles/proyecto.dir/src/gast.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/proyecto.dir/src/gast.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/proyecto.dir/src/gast.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/gast.cpp.obj -MF CMakeFiles\proyecto.dir\src\gast.cpp.obj.d -o CMakeFiles\proyecto.dir\src\gast.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\gast.cpp
 
 CMakeFiles/proyecto.dir/src/gast.cpp.i: cmake_force
@@ -533,7 +519,7 @@ CMakeFiles/proyecto.dir/src/gast.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/gmst.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/gmst.cpp.obj: ../src/gmst.cpp
 CMakeFiles/proyecto.dir/src/gmst.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/proyecto.dir/src/gmst.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/proyecto.dir/src/gmst.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/gmst.cpp.obj -MF CMakeFiles\proyecto.dir\src\gmst.cpp.obj.d -o CMakeFiles\proyecto.dir\src\gmst.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\gmst.cpp
 
 CMakeFiles/proyecto.dir/src/gmst.cpp.i: cmake_force
@@ -547,7 +533,7 @@ CMakeFiles/proyecto.dir/src/gmst.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/EqnEquinox.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/EqnEquinox.cpp.obj: ../src/EqnEquinox.cpp
 CMakeFiles/proyecto.dir/src/EqnEquinox.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/proyecto.dir/src/EqnEquinox.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/proyecto.dir/src/EqnEquinox.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/EqnEquinox.cpp.obj -MF CMakeFiles\proyecto.dir\src\EqnEquinox.cpp.obj.d -o CMakeFiles\proyecto.dir\src\EqnEquinox.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\EqnEquinox.cpp
 
 CMakeFiles/proyecto.dir/src/EqnEquinox.cpp.i: cmake_force
@@ -561,7 +547,7 @@ CMakeFiles/proyecto.dir/src/EqnEquinox.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/LTC.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/LTC.cpp.obj: ../src/LTC.cpp
 CMakeFiles/proyecto.dir/src/LTC.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/proyecto.dir/src/LTC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/proyecto.dir/src/LTC.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/LTC.cpp.obj -MF CMakeFiles\proyecto.dir\src\LTC.cpp.obj.d -o CMakeFiles\proyecto.dir\src\LTC.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\LTC.cpp
 
 CMakeFiles/proyecto.dir/src/LTC.cpp.i: cmake_force
@@ -575,7 +561,7 @@ CMakeFiles/proyecto.dir/src/LTC.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/angl.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/angl.cpp.obj: ../src/angl.cpp
 CMakeFiles/proyecto.dir/src/angl.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/proyecto.dir/src/angl.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/proyecto.dir/src/angl.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/angl.cpp.obj -MF CMakeFiles\proyecto.dir\src\angl.cpp.obj.d -o CMakeFiles\proyecto.dir\src\angl.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\angl.cpp
 
 CMakeFiles/proyecto.dir/src/angl.cpp.i: cmake_force
@@ -589,7 +575,7 @@ CMakeFiles/proyecto.dir/src/angl.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/G_AccelHarmonic.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/G_AccelHarmonic.cpp.obj: ../src/G_AccelHarmonic.cpp
 CMakeFiles/proyecto.dir/src/G_AccelHarmonic.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/proyecto.dir/src/G_AccelHarmonic.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/proyecto.dir/src/G_AccelHarmonic.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/G_AccelHarmonic.cpp.obj -MF CMakeFiles\proyecto.dir\src\G_AccelHarmonic.cpp.obj.d -o CMakeFiles\proyecto.dir\src\G_AccelHarmonic.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\G_AccelHarmonic.cpp
 
 CMakeFiles/proyecto.dir/src/G_AccelHarmonic.cpp.i: cmake_force
@@ -603,7 +589,7 @@ CMakeFiles/proyecto.dir/src/G_AccelHarmonic.cpp.s: cmake_force
 CMakeFiles/proyecto.dir/src/JPL_Eph_DE430.cpp.obj: CMakeFiles/proyecto.dir/flags.make
 CMakeFiles/proyecto.dir/src/JPL_Eph_DE430.cpp.obj: ../src/JPL_Eph_DE430.cpp
 CMakeFiles/proyecto.dir/src/JPL_Eph_DE430.cpp.obj: CMakeFiles/proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/proyecto.dir/src/JPL_Eph_DE430.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/proyecto.dir/src/JPL_Eph_DE430.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyecto.dir/src/JPL_Eph_DE430.cpp.obj -MF CMakeFiles\proyecto.dir\src\JPL_Eph_DE430.cpp.obj.d -o CMakeFiles\proyecto.dir\src\JPL_Eph_DE430.cpp.obj -c C:\Users\danie\Desktop\proyectoTT\src\JPL_Eph_DE430.cpp
 
 CMakeFiles/proyecto.dir/src/JPL_Eph_DE430.cpp.i: cmake_force
@@ -617,7 +603,6 @@ CMakeFiles/proyecto.dir/src/JPL_Eph_DE430.cpp.s: cmake_force
 # Object files for target proyecto
 proyecto_OBJECTS = \
 "CMakeFiles/proyecto.dir/EKF.cpp.obj" \
-"CMakeFiles/proyecto.dir/EKF_test.cpp.obj" \
 "CMakeFiles/proyecto.dir/src/Matrix.cpp.obj" \
 "CMakeFiles/proyecto.dir/src/R_z.cpp.obj" \
 "CMakeFiles/proyecto.dir/src/R_x.cpp.obj" \
@@ -660,7 +645,6 @@ proyecto_OBJECTS = \
 proyecto_EXTERNAL_OBJECTS =
 
 proyecto.exe: CMakeFiles/proyecto.dir/EKF.cpp.obj
-proyecto.exe: CMakeFiles/proyecto.dir/EKF_test.cpp.obj
 proyecto.exe: CMakeFiles/proyecto.dir/src/Matrix.cpp.obj
 proyecto.exe: CMakeFiles/proyecto.dir/src/R_z.cpp.obj
 proyecto.exe: CMakeFiles/proyecto.dir/src/R_x.cpp.obj
@@ -702,7 +686,7 @@ proyecto.exe: CMakeFiles/proyecto.dir/build.make
 proyecto.exe: CMakeFiles/proyecto.dir/linklibs.rsp
 proyecto.exe: CMakeFiles/proyecto.dir/objects1.rsp
 proyecto.exe: CMakeFiles/proyecto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking CXX executable proyecto.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\danie\Desktop\proyectoTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable proyecto.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\proyecto.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

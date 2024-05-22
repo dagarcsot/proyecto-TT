@@ -19,7 +19,9 @@ public:
     Matrix operator*(double producto);
 
     Matrix transpuesta();
+     Matrix inversa();
     Matrix concatenar(const Matrix &matrix2);
+    static Matrix identidad(int n);
 
     double dot(const Matrix &matrix2);
     double norma();

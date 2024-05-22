@@ -22,7 +22,8 @@ JPL_Eph_DE430(double Mjd_TDB, Matrix &r_Mercury, Matrix &r_Venus, Matrix &r_Eart
               Matrix &r_Saturn, Matrix &r_Uranus, Matrix &r_Neptune, Matrix &r_Pluto, Matrix &r_Moon, Matrix &r_Sun) {
 
 //global
-    extern Matrix PC;
+     extern Matrix PC;
+
 
     double JD = Mjd_TDB + 2400000.5;
 

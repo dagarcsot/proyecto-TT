@@ -2,6 +2,7 @@
 
 #include "../include/AccelPointMass.h"
 #include <cmath>
+#include <iostream>
 
 
 /*
@@ -19,9 +20,7 @@ Matrix AccelPointMass(Matrix  &r, Matrix  &s, double GM){
     //Relative position vector of satellite w.r.t. point mass
     Matrix d = r - s;
 
-    double norm3 = pow(d.norma(),3);
-
-    //Acceleration
-    return (d * (1/norm3) + s * (1/norm3)) * -GM;
+        //Acceleration
+    return  (d * (1/ pow(d.norma(),3)) + s * (1/ pow(s.norma(),3))) * -GM;
 
 }

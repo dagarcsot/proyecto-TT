@@ -201,23 +201,85 @@ Matrix Matrix::getPrimeraFil(int inic,int fin) {
     return result;
 
 }
-
 Matrix Matrix::concatenar(const Matrix &matrix2) {
-    Matrix result(fil, col + matrix2.col);
+    Matrix result(fil + matrix2.fil, col);
 
     for (int i = 0; i < fil; ++i) {
         for (int j = 0; j < col; ++j) {
             result.matrix[i][j] = matrix[i][j];
         }
     }
+
     for (int i = 0; i < matrix2.fil; ++i) {
         for (int j = 0; j < matrix2.col; ++j) {
-            result.matrix[i][col + j] = matrix2.matrix[i][j];
+            result.matrix[fil + i][j] = matrix2.matrix[i][j];
         }
     }
 
     return result;
 }
+
+
+Matrix Matrix::inversa() {
+    Matrix result(fil, col);
+
+    if (fil == 1 && col == 1) {
+        double aux = matrix[0][0];
+        if (aux == 0) {
+            return Matrix(0, 0);
+
+        } else {
+            result.matrix[0][0] = 1.0 / aux;
+            return result;
+        }
+    }
+
+        Matrix identidad = Matrix::identidad(fil);
+
+    Matrix gauss(fil, col);
+
+
+    for (int i = 0; i < fil; ++i) {
+        for (int j = 0; j < col; ++j) {
+            gauss.matrix[i][j] = matrix[i][j];
+        }
+    }
+
+    for (int i = 0; i < fil; ++i) {
+        double pivote = gauss.matrix[i][i];
+        if (fabs(pivote) < 1e-10) {
+            std::cerr << "La matriz es singular y no puede invertirse." << std::endl;
+            exit(EXIT_FAILURE);
+        }
+
+        for (int j = 0; j < col; ++j) {
+            gauss.matrix[i][j] /= pivote;
+            identidad.matrix[i][j] /= pivote;
+        }
+
+        for (int k = 0; k < fil; ++k) {
+            if (k != i) {
+                double factor = gauss.matrix[k][i];
+                for (int j = 0; j < col; ++j) {
+                    gauss.matrix[k][j] -= factor * gauss.matrix[i][j];
+                    identidad.matrix[k][j] -= factor * identidad.matrix[i][j];
+                }
+            }
+        }
+    }
+    return identidad;
+}
+
+Matrix Matrix::identidad(int n) {
+    Matrix id(n, n);
+
+    for (int i = 0; i < n; ++i) {
+        id.matrix[i][i] = 1.0;
+    }
+
+    return id;
+}
+
 
 
 
