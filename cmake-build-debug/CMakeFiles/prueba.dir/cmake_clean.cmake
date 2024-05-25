@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/prueba.dir/src/AzElPa.cpp.obj.d"
   "CMakeFiles/prueba.dir/src/Cheb3D.cpp.obj"
   "CMakeFiles/prueba.dir/src/Cheb3D.cpp.obj.d"
+  "CMakeFiles/prueba.dir/src/DEInteg.cpp.obj"
+  "CMakeFiles/prueba.dir/src/DEInteg.cpp.obj.d"
   "CMakeFiles/prueba.dir/src/EccAnom.cpp.obj"
   "CMakeFiles/prueba.dir/src/EccAnom.cpp.obj.d"
   "CMakeFiles/prueba.dir/src/EqnEquinox.cpp.obj"

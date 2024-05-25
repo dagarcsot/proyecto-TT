@@ -1,0 +1,8 @@
+
+#ifndef PROYECTO_DEINTEG_H
+#define PROYECTO_DEINTEG_H
+
+
+
+
+#endif //PROYECTO_DEINTEG_H
